@@ -9,26 +9,39 @@
 /* YUI 3.8.1 (build 5795) Copyright 2013 Yahoo! Inc. http://yuilibrary.com/license/ */
 html{color:#000;background:#FFF}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0}table{border-collapse:collapse;border-spacing:0}fieldset,img{border:0}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal}ol,ul{list-style:none}caption,th{text-align:left}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}q:before,q:after{content:''}abbr,acronym{border:0;font-variant:normal}sup{vertical-align:text-top}sub{vertical-align:text-bottom}input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit}input,textarea,select{*font-size:100%}legend{color:#000}#yui3-css-stamp.cssreset{display:none}
 
-
-  html { font-family: sans-serif; }
+  /* Base */
+  html { 
+    font-family: sans-serif; 
+    line-height: 24px;  
+  }
+  p, ul {
+    margin-bottom: 24px;
+  }
+  
+  /* Layout */
+  #page-header {
+  
+  }
+  
 </style>
 </head>
 <body>
 
-<h1><a href="http://chicago.digitalhumaniti.es/" rel="home">Chicago DH</a></h1>
-<p>
+<h1 id="page-header"><a href="http://chicago.digitalhumaniti.es/" rel="home">Chicago <b>DH</b></a></h1>
+
+<p id="mission">
   An informal, public group dedicated to sharing digital humanities events, announcements,
   questions, and discussions in and around Chicago.
 </p>
 
-<p>
+<p id="news">
   We’ve yet to officially launch, but <a href="https://groups.google.com/forum/#!forum/chicago-dh">the Chicago DH Google Group</a>
   is active. Currently, we have many members from Northwestern University and Illinois Institute of
   Technology, but we're hoping to add additional members from colleges and universities across
   Chicagoland.
 </p>
 
-<ul>
+<ul id="links">
   <li>
     <a href="https://groups.google.com/forum/#!forum/chicago-dh">Google Groups</a>
   </li>
@@ -37,7 +50,7 @@ html{color:#000;background:#FFF}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre
   </li>
 </ul>
 
-<p>
+<p id="page-footer">
   Site design by <a href="http://karlstolley.com/">K. Stolley</a>.
   <a href="https://github.com/karlstolley/chicago-dh">Fork this site on GitHub</a>.
 </p>
